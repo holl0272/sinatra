@@ -1,0 +1,39 @@
+@import url(http://fonts.googleapis.com/css?family=Monofett);
+
+body {
+  background-image: url('/images/calc.jpg');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+
+header {
+  font-size: 100px;
+  color: #00FFFF;
+  font-family: 'Monofett', cursive;
+}
+
+h2 {
+  font-size: 40px;
+  color: #99FF00;
+}
+
+.numtitle {
+  margin-left: 20px;
+}
+
+.number {
+  color: #000000;
+  font-size: 36px;
+  background-color: white;
+  border: 3px solid red;
+  border-radius: 10px;
+}
+
+span {
+  margin: 40px;
+  padding: 10px;
+  color: #000000;
+  font-size: 36px;
+  background-color: white;
+  border: 3px solid red;
+  border-radius: 10px;
+}

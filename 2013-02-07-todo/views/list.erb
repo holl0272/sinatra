@@ -1,0 +1,6 @@
+<ul>
+<% @rows.each do |row| %>
+    <li><strong>Task:</strong>&nbsp&nbsp<%= row['task'] %></li><br>
+    <li><strong>Description:</strong>&nbsp&nbsp<%= row['description'] %></li><br><br>
+<% end %>
+</ul>

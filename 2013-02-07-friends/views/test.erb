@@ -1,0 +1,71 @@
+<div class="container-fluid">
+  <div class="row-fluid">
+    <div class="span6">
+      <div id="formsection1">
+        <div class='form-horizontal'>
+        <Form action='/create_friend' method='post'>
+
+        <div class="control-group">
+        <label class="control-label" for="name"><strong>Name</strong></label>
+          <div class="controls">
+            <input type="text" name="name" placeholder="Full Name">
+          </div>
+        </div>
+
+        <div class="control-group">
+        <label class="control-label" for="age"><strong>Age</strong></label>
+          <div class="controls">
+            <input type="text" name="age" placeholder="Birthday">
+          </div>
+        </div>
+
+        <div class="control-group">
+        <label class="control-label" for="gender"><strong>Gender</strong></label>
+          <div class="controls">
+            <input type="text" name="gender" placeholder="Male/Female">
+          </div>
+        </div>
+
+        <div class="control-group">
+        <label class="control-label" for="img"><strong>Image</strong></label>
+          <div class="controls">
+            <input type="text" name="img" placeholder="Image URL">
+          </div>
+        </div>
+
+        <div class="control-group">
+        <label class="control-label" for="twittr"><strong>Twitter</strong></label>
+          <div class="controls">
+            <input type="text" name="twittr" placeholder="Twitter URL">
+          </div>
+        </div>
+
+        <div class="control-group">
+        <label class="control-label" for="fb"><strong>Facebook</strong></label>
+          <div class="controls">
+            <input type="text" name="fb" placeholder="Facebook URL">
+          </div>
+        </div>
+
+        <div class="control-group">
+          <div class="controls">
+            <button type="submit" class="btn">Submit</button>
+          </div>
+        </div>
+      </form>
+
+      </div>
+    </div>
+    <div class="span6">
+      <div id="formsection2">
+        <img src="/images/listlogo.jpg">
+          <ul id="formlist">
+            <li><button id="googlebtn" class="btn btn-success" type="img" style="width: 150px;"><a href="http://www.google.com/imghp?hl=en&tab=wi" target="_blank"></a>Search Google</button></li>
+            <br>            <li><button id="twittrbtn" class="btn btn-info" type="img" style="width: 150px;"><a href="http://twitter.com/search-advanced" target="_blank">Search Twitter</a></button></li>
+            <br>
+            <li><button id="fbbtn" class="btn btn-primary" type="img" style="width: 150px;"><a href="http://www.facebook.com/people-search.php" target="_blank">Search Facebook</a></button></li>
+          </ul>
+      </div>
+    </div>
+  </div>
+</div>

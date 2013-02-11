@@ -1,0 +1,12 @@
+<header>
+  <h1>iQuote</h1>
+</header>
+
+<form action='/iquote' method='get'>
+  <input type="text" name="symbol" autofocus>
+  <button>Get Quote</button>
+</form>
+
+<section>
+<div id='symbol'><%= @symbol %></div> is currently trading at: <div id='price'>$<%= @price %></div> per share
+</section>

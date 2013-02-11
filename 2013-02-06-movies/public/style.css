@@ -1,0 +1,90 @@
+@import url(http://fonts.googleapis.com/css?family=Cinzel);
+
+body {
+  background: url('/images/curtain.jpg') no-repeat fixed center;
+  background-size: cover;
+}
+
+footer {
+  position:absolute;
+  bottom:30px;
+  width:100%;
+}
+
+footer .nav{
+  list-style:none;
+  margin:0;
+  padding:0;
+  text-align:center;
+}
+footer .nav li{
+  display:inline;
+}
+
+footer .nav a{
+  color: white;
+  display:inline-block;
+  padding: 8px;
+  text-decoration: none;
+  font-family: 'Cinzel', serif;
+  font-size: 24px;
+  margin: 0 20px 0 20px;
+}
+
+footer .nav a:hover {
+  color: yellow;
+}
+
+#form form input {
+  margin-top: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#form form button {
+  margin-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#container {
+  height: 62%;
+  width: 50%;
+  line-height: 30px;
+  margin-left: 23%;
+  margin-top: 7%;
+  padding-top: 8px;
+  padding-right: 25px;
+  padding-bottom: 10px;
+  background-color: white;
+  opacity:0.4;
+  border-radius: 35px;
+}
+
+#container ul span {
+  line-height: 20px;
+}
+
+#frame {
+  z-index: -1;
+  display: block;
+  height: 458px;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  left: 463px;
+  top:80px;
+  }
+
+#poster {
+  height: 400px;
+  width: 300px;
+  margin-top: 108px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+

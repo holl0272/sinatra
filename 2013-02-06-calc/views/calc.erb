@@ -1,0 +1,23 @@
+<header>C A L C U L A T O R</header>
+
+<form action='/calc' method='get'>
+  <input type="text" name="first">
+  <input type="text" name="operator">
+  <input type="text" name="second">
+  <button>CALC</button>
+</form>
+
+
+
+  <div class="numtitle">
+    <h2>Number 1:</h2>
+      <span><%= @first%></span>
+  </div>
+  <div class="numtitle">
+    <h2>Number 2:</h2>
+      <span><%= @second %></span>
+  </div>
+  <div class="numtitle">
+    <h2>The result is:</h2>
+      <span><%= @result %></span>
+  </div>

@@ -1,0 +1,38 @@
+body {
+  background-image: url('/images/wallst.jpg');
+  background-repeat: no-repeat;
+  background-size:100%;
+}
+
+header {
+  color: white;
+  margin-left: 50px;
+}
+
+form {
+  margin-left: 50px;
+}
+
+section {
+  font-size: 24px;
+  color: black;
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+  padding: 10px;
+  background-color: white;
+  border: 10px solid black;
+  border-radius: 25px;
+}
+
+section div {
+  display: inline;
+}
+
+#symbol {
+  color: blue;
+}
+
+#price {
+  color: red;
+}

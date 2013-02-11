@@ -1,0 +1,22 @@
+<% @rows.each do |row| %>
+
+<div class="container-fluid">
+  <div class="row-fluid">
+    <div class="span4">
+      <img id="profile_pic" src='<%= row['img'] %>'>
+    </div>
+    <div class="span6">
+      <ul id="stats">
+        <li><strong>Name:</strong>&nbsp&nbsp<%= row['name'] %></li><br>
+        <li><strong>Age:</strong>&nbsp&nbsp<%= row['age'] %></li><br>
+        <li><strong>Gender:</strong>&nbsp&nbsp<%= row['gender'] %></li><br>
+      </ul>
+    </div>
+    <div id="social" class="span2">
+      <strong>Follow</strong><br><%= row['name'] %><br><a href="<%= row['twittr'] %>" target="_blank"><img id="twittr" src='/images/twitter.png'></a><br><a href="<%= row['fb'] %>" target="_blank"><img id="fb" src='/images/fb.png'></a>
+    </div>
+  </div>
+</div>
+
+<% end %>
+

@@ -1,0 +1,18 @@
+
+<div id="container">
+    <% if @hash %>
+        <ul>
+            <li><strong>Title:</strong>   <%= @hash['Title'] %></li>
+            <li><strong>Relesed:</strong>   <%= @hash['Released'] %></li>
+            <li><strong>Runtime:</strong>   <%= @hash['Runtime'] %></li>
+            <li><strong>Genre:</strong>   <%= @hash['Genre'] %></li>
+            <li><strong>Director:</strong>   <%= @hash['Director'] %></li>
+            <li><strong>Writers:</strong>   <%= @hash['Writer'] %></li>
+            <li><strong>Actors:</strong>   <%= @hash['Actors'] %></li>
+            <li><strong>imdbRating:</strong>  <%= @hash['imdbRating'] %></li>
+            <li><strong>imdbVotes:</strong>   <%= @hash['imdbVotes'] %></li>
+            <li><strong>imdbID:</strong>   <%= @hash['imdbID'] %></li><br>
+            <span><li><strong>Plot:</strong><br><%= @hash['Plot'] %></li></span>
+        </ul>
+    <% end %>
+</div>
